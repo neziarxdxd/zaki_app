@@ -20,7 +20,12 @@ module.exports = {
       },
     },
   },
-  initialState: {},
+  initialState: {
+    asking: false,
+    nickname: null,
+    wiki:false,
+    number:0,
+  },
   channels: {
     messenger: {
       enabled: true,
@@ -30,7 +35,33 @@ module.exports = {
       appId: process.env.MESSENGER_APP_ID,
       appSecret: process.env.MESSENGER_APP_SECRET,
       verifyToken: process.env.MESSENGER_VERIFY_TOKEN,
+      profile: {
+        getStarted: {
+          payload: 'GET_STARTED',
+        },
+        greeting: [
+          {
+            locale: 'default',
+            text: "Helloooo 👋",
+          },
+        ],
+        persistentMenu: [
+          {
+            locale: 'default',
+            composer_input_disabled: true,
+            call_to_actions: [
+              
+              {
+                type: 'postback',
+                title: "test",
+                payload: "test",
+              },
+            ],
+          },
+        ],
+      },
     },
+   
     whatsapp: {
       enabled: false,
       path: '/webhooks/whatsapp',
