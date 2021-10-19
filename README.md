@@ -1,3 +1,12 @@
+
+# DOCS
+
+Information technology is one of the basic needs now in the 21st century, it is one of our needs today. Filipinos are in trouble in terms of purchasing mobile data and unlimited subscriptions of internet connection and it is too expensive that is why more Filipinos are relying on the Free Facebook or Free data that the telecommunication provides. Chatbots are emerging nowadays especially in platforms of social media including Facebook. Since Facebook has free data and you can chat with the chatbots using Facebook why not create a chatbot.
+
+This chatbot application is created with an integration of the Encyclopedia API, Dictionary API, and Mathematics API. This chatbot will provide all like a working Encyclopedia, dictionary, and math computation even you are using free data. This chatbot application is under the Heroku application web hosting that can be used 24/7 or anytime you want. It is also integrated with fast algorithms and new technologies. This chatbot can help Filipinos who are relying on free data.
+
+
+
 This project was bootstrapped with
 [Bottender](https://github.com/Yoctol/bottender) init script.
 
