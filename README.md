@@ -5,6 +5,11 @@ Information technology is one of the basic needs now in the 21st century, it is 
 
 This chatbot application is created with an integration of the Encyclopedia API, Dictionary API, and Mathematics API. This chatbot will provide all like a working Encyclopedia, dictionary, and math computation even you are using free data. This chatbot application is under the Heroku application web hosting that can be used 24/7 or anytime you want. It is also integrated with fast algorithms and new technologies. This chatbot can help Filipinos who are relying on free data.
 
+## Todo (December 27 - 29, 2021)
+- [ ] Math equation from Wolfram
+- [ ] Dictionary API
+- [ ] Wikipedia 
+- [ ] Republish 
 
 
 This project was bootstrapped with
