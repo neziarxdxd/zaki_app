@@ -1,4 +1,4 @@
 // Procfile
 
 web: npm start
-release: npx bottender messenger webhook set -w https://thezakiapp.herokuapp.com/webhooks/messenger
+release: npx bottender messenger webhook set -w https://zaki-project-c.herokuapp.com/webhooks/messenger
