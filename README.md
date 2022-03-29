@@ -11,6 +11,7 @@ This chatbot application is created with an integration of the Encyclopedia API,
 - [ ] Wikipedia 
 - [×] Republish 
 
+## npm install
 
 This project was bootstrapped with
 [Bottender](https://github.com/Yoctol/bottender) init script.
@@ -43,7 +44,7 @@ The bot will automatically reload if you make changes to the code.<br>
 By default, server runs on [http://localhost:5000](http://localhost:5000) and ngrok runs on [http://localhost:4040](http://localhost:4040).
 
 To run in [Console Mode](https://bottender.js.org/docs/en/the-basics-console-mode), provide the `--console` option:
-
+*gamitin mo ito*
 ```sh
 npm run dev -- --console
 yarn dev --console
