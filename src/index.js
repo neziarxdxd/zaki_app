@@ -37,7 +37,7 @@ async function doSolveThis(context){
 }
 
 async function sendHelp(context){
-  await context.sendText({{user_first_name}}"! Here's the list of available commands: \n /simplify (/simplify 2^2 + 2(2) \n /factor (/factor x^2 + 2x)\n /derive (/derive x^2 + 2x) \n /integrate (/integrate x^2 + 2x) \n /zeroes (/zeroes x^2 + 2x) \n /tangent (/tangent 2lx^3) \n /area (/area 2:4lx^3) \n /cos (/cos pi) \n /sin (/sin 0)\n /log (/log 0) \n /wiki (/wiki Programming) (searching) \n /word (/word Happy) (dictionary)") 
+  await context.sendText({{user_first_name}}"! Click the button below to see the list of available commands.") 
 }
 
 async function wikiPediaSend(context){
